@@ -1,0 +1,30 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: test
+  namespace: argocd
+spec:
+  generators:
+  - list:
+      elements:
+      - cde: abc
+        abcdd: prod
+        abc2: cde
+      
+  template:
+    metadata:
+      name: 'hello-{{cde}}-{{abcdd}}'
+    spec:
+      project: default
+      destination:
+        server: 'https://kubernetes.default.svc'
+        namespace: default
+      syncPolicy:
+        automated: {}
+      source:
+        repoURL: https://github.com/6620913/airflow-dag.git
+        targetRevision: HEAD
+        path: chart
+        helm: 
+          values: |
+              Name: {{ cde}}
