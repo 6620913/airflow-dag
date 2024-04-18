@@ -16,7 +16,6 @@ spec:
     metadata:
       name: '{{cluster}}-guestbook'
     spec:
-      project: my-project
       source:
         repoURL: https://github.com/6620913/airflow-dag.git
         targetRevision: HEAD
@@ -26,4 +25,4 @@ spec:
             name: '{{cluster}}'
       destination:
         server: '{{url}}'
-        namespace: guestbook
+        namespace: default
