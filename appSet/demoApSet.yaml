@@ -14,7 +14,7 @@ spec:
         url: https://9.8.7.6
   template:
     metadata:
-      name: '{{cluster}}-guestbook'
+      name: {{cluster}}-guestbook
     spec:
       project: default
       source:
@@ -23,7 +23,7 @@ spec:
         path: chart
         helm: 
           values: |
-            Name: '{{cluster}}'
+            Name: {{cluster}}
       destination:
         server: https://kubernetes.default.svc
         namespace: default
