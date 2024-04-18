@@ -13,7 +13,7 @@ spec:
       
   template:
     metadata:
-      name: '{{elements.cluster}}-guestbook'
+      name: '{{cluster.name}}-guestbook'
     spec:
       project: default
       destination:
@@ -27,4 +27,4 @@ spec:
         path: chart
         helm: 
           values: |
-              Name: {{elements.cluster}}
+              Name: {{cluster.name}}
