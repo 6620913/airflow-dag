@@ -6,6 +6,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/6620913/airflow-dag.git
+    path: demoApSet.yaml
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
