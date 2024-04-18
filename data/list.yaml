@@ -12,6 +12,6 @@ list:
       name: pod3
       address: https://1.2.3.4
   - cluster:
-        owner: cluster-admin@company.com
-        name: pod4
-        address: https://1.2.3.4
+      owner: cluster-admin@company.com
+      name: pod4
+      address: https://1.2.3.4
