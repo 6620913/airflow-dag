@@ -5,9 +5,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: .
+    repoURL: https://github.com/6620913/airflow-dag.git
     targetRevision: HEAD
-    path: demoApSet.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: pods
