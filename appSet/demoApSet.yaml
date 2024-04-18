@@ -13,6 +13,7 @@ spec:
       - cluster: finance-preprod
         url: https://9.8.7.6
   template:
+    project: default
     metadata:
       name: '{{cluster}}-guestbook'
     spec:
