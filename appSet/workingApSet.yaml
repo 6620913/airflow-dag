@@ -5,11 +5,11 @@ metadata:
   namespace: argocd
 spec:
   generators:
-  - list:
-      elements:
-      - cde: abc
-        abcdd: prod
-        abc2: cde
+  - git:
+      repoURL: https://github.com/6620913/airflow-dag.git
+      revision: HEAD
+      files:
+      - path: "data/list.yaml"
       
   template:
     metadata:
