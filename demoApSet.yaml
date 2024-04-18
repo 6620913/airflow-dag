@@ -18,9 +18,11 @@ spec:
     spec:
       project: my-project
       source:
-        repoURL: https://github.com/infra-team/cluster-deployments.git
+        repoURL: https://github.com/6620913/airflow-dag.git
         targetRevision: HEAD
-        path: guestbook/{{cluster}}
+        path: chart
+        helm: |
+          name: '{{cluster}}'
       destination:
         server: '{{url}}'
         namespace: guestbook
