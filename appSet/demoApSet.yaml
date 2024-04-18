@@ -25,5 +25,5 @@ spec:
           values: |
             Name: '{{cluster}}'
       destination:
-        server: '{{url}}'
+        server: https://kubernetes.default.svc
         namespace: default
