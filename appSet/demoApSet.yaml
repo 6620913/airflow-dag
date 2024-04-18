@@ -23,7 +23,7 @@ spec:
         path: chart
         helm: 
           values: |
-            name: '{{cluster}}'
+            Name: '{{cluster}}'
       destination:
         server: '{{url}}'
         namespace: default
