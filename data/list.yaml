@@ -1,4 +1,5 @@
-{
+[
+  {
   "cluster": {
     "owner": "cluster-admin@company.com",
     "name": "pod1",
@@ -19,3 +20,4 @@
     "address": "https://1.2.3.4"
   }
 }
+]
