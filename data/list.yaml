@@ -1,7 +1,7 @@
 elements:
   - cluster: pod1
-   url: https://1.2.3.4
+    url: https://1.2.3.4
   - cluster: pod2
     url: https://2.4.6.8
   - cluster: pod3
-      url: https://9.8.7.6
+    url: https://9.8.7.6
