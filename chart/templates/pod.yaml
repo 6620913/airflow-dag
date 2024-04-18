@@ -3,7 +3,6 @@ kind: Pod
 metadata:
   name: {{.Values.Name}}
 spec:
-  serviceAccountName: my-service-account
   containers:
   - name: ubuntu
     image: ubuntu
