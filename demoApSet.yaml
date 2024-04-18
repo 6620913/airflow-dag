@@ -21,8 +21,9 @@ spec:
         repoURL: https://github.com/6620913/airflow-dag.git
         targetRevision: HEAD
         path: chart
-        helm: |
-          name: '{{cluster}}'
+        helm: 
+          values: |
+            name: '{{cluster}}'
       destination:
         server: '{{url}}'
         namespace: guestbook
