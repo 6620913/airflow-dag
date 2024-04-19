@@ -13,7 +13,7 @@ spec:
       
   template:
     metadata:
-      name: '{{cluster.name}}-guestbook'
+      name: '{{cluster.name}}'
     spec:
       project: default
       destination:
