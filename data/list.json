@@ -8,5 +8,15 @@
   "cluster": {
     "name": "pod2"
   }
+},
+{
+  "cluster": {
+    "name": "pod3"
+  }
+},
+{
+  "cluster": {
+    "name": "pod4"
+  }
 }
 ]
