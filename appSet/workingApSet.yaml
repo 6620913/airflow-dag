@@ -13,7 +13,7 @@ spec:
       
   template:
     metadata:
-      name: '{{cluster.name}}'
+      name: '{{name}}'
     spec:
       project: default
       destination:
@@ -27,4 +27,4 @@ spec:
         path: chart
         helm: 
           values: |
-              Name: {{cluster.name}}
+              Name: {{name}}

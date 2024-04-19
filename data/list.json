@@ -1,22 +1,10 @@
 [
-{
-  "cluster": {
-    "name": "pod1-json"
+  {
+    "name": "hello1.com",
+    "b": "['a']"
+  },
+  {
+    "name": "hello2.com",
+    "b": "['b','a']"
   }
-},
-{
-  "cluster": {
-    "name": "pod2-json"
-  }
-},
-{
-  "cluster": {
-    "name": "pod3-json"
-  }
-},
-{
-  "cluster": {
-    "name": "pod4-json"
-  }
-}
 ]
