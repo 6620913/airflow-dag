@@ -1,0 +1,4 @@
+cluster:
+  - name: ypod1
+  - name: ypod2
+  - name: ypod3

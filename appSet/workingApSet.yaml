@@ -9,7 +9,7 @@ spec:
       repoURL: https://github.com/6620913/airflow-dag.git
       revision: HEAD
       files:
-      - path: "data/list.json"
+      - path: "data/list.yaml"
       
   template:
     metadata:
