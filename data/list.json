@@ -1,10 +1,5 @@
-[{
-  "cluster": {
-    "name": "pod1"
-  }
-},
 {
   "cluster": {
-    "name": "pod1"
+    "name": "pod2"
   }
-}]
+}
