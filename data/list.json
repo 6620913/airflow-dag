@@ -1,22 +1,22 @@
 [
 {
   "cluster": {
-    "name": "pod1"
+    "name": "pod1-json"
   }
 },
 {
   "cluster": {
-    "name": "pod2"
+    "name": "pod2-json"
   }
 },
 {
   "cluster": {
-    "name": "pod3"
+    "name": "pod3-json"
   }
 },
 {
   "cluster": {
-    "name": "pod4"
+    "name": "pod4-json"
   }
 }
 ]
