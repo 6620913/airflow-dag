@@ -1,5 +1,12 @@
+[
 {
   "cluster": {
     "name": "pod1"
   }
+},
+{
+  "cluster": {
+    "name": "pod2"
+  }
 }
+]
