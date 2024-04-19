@@ -1,8 +1,13 @@
-- cluster:
-  name: ypod1
-- cluster:
-  name: ypod2
-- cluster:
-  name: ypod3
-- cluster:
-  name: ypod4
+---
+0: 
+  cluster: 
+    name: "pod1"
+1: 
+  cluster: 
+    name: "pod2"
+2: 
+  cluster: 
+    name: "pod3"
+3: 
+  cluster: 
+    name: "pod4"
