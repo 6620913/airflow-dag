@@ -10,7 +10,7 @@
       "image_name": "image"
   },
   {
-    "name": "pod2",
+    "name": "pod3",
     "allowed": "['namespace']",
     "image_name": "image"
 }
