@@ -1,10 +1,12 @@
 [
   {
-    "name": "hello1.com",
-    "b": "['a']"
+      "name": "pod1",
+      "allowed": "['namespace']",
+      "image_name": "image"
   },
   {
-    "name": "hello2.com",
-    "b": "['b','a']"
+      "name": "pod2",
+      "allowed": "['namespace']",
+      "image_name": "image"
   }
 ]
