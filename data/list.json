@@ -8,5 +8,10 @@
       "name": "pod2",
       "allowed": "['namespace']",
       "image_name": "image"
-  }
+  },
+  {
+    "name": "pod2",
+    "allowed": "['namespace']",
+    "image_name": "image"
+}
 ]
