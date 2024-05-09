@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: ubuntu
-    image: ubuntu
+    image: neeraj6620/changetracking-test:latest
     command: ["sleep", "infinity"]
  
